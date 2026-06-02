@@ -19,3 +19,33 @@ header{
   top:0;
   z-index:1000;
 }
+
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+}
+
+nav h1{
+  font-size:24px;
+}
+
+nav ul{
+  list-style:none;
+  display:flex;
+  gap:20px;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  font-weight:bold;
+  transition:0.3s;
+}
+
+nav a:hover{
+  color:#c8e6c9;
+}
+
+/* continua com todo o restante do seu CSS */
